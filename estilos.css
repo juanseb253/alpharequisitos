@@ -205,7 +205,7 @@
 }
 #contenedor1{
 	position: absolute;
-	height: 240px;
+	height: 250px;
 	left: 300px;
 }
 #builds1{
@@ -221,5 +221,65 @@
 #contenedor2{
 	position: absolute;
 	left: 550px;
-	height: 550px;
+	height: 610px;
+}
+#establishes{
+	position: absolute;
+	left: 38px;
+	top: 70px;
+}
+#defines{
+	position: absolute;
+	left: 38px;
+	top: 160px;
+}
+#builds3{
+	position: absolute;
+	left: 38px;
+	top: 250px;
+}
+#checks{
+	position: absolute;
+	left: 38px;
+	top: 340px;
+}
+#analyzes{
+	position: absolute;
+	left: 38px;
+	top: 430px;
+}
+#concludes{
+	position: absolute;
+	left: 38px;
+	top: 520px;
+}
+#contenedor3{
+	position: absolute;
+	height: 250px;
+	left: 800px;
+}
+#selects1{
+	position: absolute;
+	left: 38px;
+	top: 70px;
+}
+#selects2{
+	position: absolute;
+	left: 38px;
+	top: 160px;
+}
+#contenedor4{
+	position: absolute;
+	height: 250px;
+	left: 1050px;
+}
+#interacts{
+	position: absolute;
+	left: 38px;
+	top: 70px;
+}
+#responds{
+	position: absolute;
+	left: 38px;
+	top: 160px;
 }
