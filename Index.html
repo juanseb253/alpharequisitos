@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="estilos.css">
+		<title>Prototype</title>
+	</head>
+
+	<body>
+		<!---objetos clase ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--->
+		<div class="objectclass" id="character">
+
+			<center><p>CHARACTER</p></center>
+
+		</div>
+
+		<div class="objectclass" id="skill">
+
+			<center><p>SKILL</p></center>
+
+		</div>
+
+		<div class="objectclass" id="game_designer">
+			<center><p>GAME_DESIGNER</p></center>
+		</div>
+
+		<div class="objectclass" id="behavior">
+			<center><p>BEHAVIOR</p></center>
+		</div>
+
+		<div class="objectclass" id="game">
+			<center><p>GAME</p></center>
+		</div>
+
+		<div class="objectclass" id="design">
+			<center><p>DESIGN</p></center>
+		</div>
+
+		<div class="objectclass" id="challenge">
+			<center><p>CHALLENGE</p></center>
+		</div>
+
+		<div class="objectclass" id="prototype">
+			<center><p>PROTOTYPE</p></center>
+		</div>
+
+		<div class="objectclass" id="objetive">
+			<center><p>OBJETIVE</p></center>
+		</div>
+
+		<div class="objectclass" id="dynamics">
+			<center><p>DYNAMICS</p></center>
+		</div>
+
+		<div class="objectclass" id="satisfaction">
+			<center><p>SATISFACTION</p></center>
+		</div>
+
+		<div class="objectclass" id="player">
+			<center><p>PLAYER</p></center>
+		</div>
+
+		<div class="objectclass" id="target_audience">
+			<center><p>TARGET_AUDIENCE</p></center>
+		</div>
+
+		<div class="objectclass" id="graphic_element">
+			<center><p>GRAPHIC_ELEMENT</p></center>
+		</div>
+
+		<div class="objectclass" id="sound_element">
+			<center><p>SOUND_ELEMENT</p></center>
+			
+		</div>
+
+		<div class="objectclass" id="poll">
+			<center><p>POLL</p></center>
+		</div>
+
+		<div class="objectclass" id="item">
+			<center><p>ITEM</p></center>
+		</div>
+
+		<div class="objectclass" id="architecture">
+			<center><p>ARCHITECTURE</p></center>
+		</div>
+
+		<div class="objectclass" id="component">
+			<center><p>COMPONENT</p></center>
+		</div>
+
+		<!---hojas ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--->
+		<!---<div class="leaf" id="action_element">
+			<center><p>ACTION_ELEMENT</p></center>
+		</div>
+
+		<div class="leaf" id="movement">
+			<center><p>MOVEMENT</p></center>
+		</div>
+
+		<div class="leaf" id="name">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="description">
+			<center><p>DESCRIPTION</p></center>
+		</div>
+		
+		<div class="leaf" id="name2">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="identification">
+			<center><p>IDENTIFICATION</p></center>
+		</div>
+		
+		<div class="leaf" id="type">
+			<center><p>TYPE</p></center>
+		</div>
+		
+		<div class="leaf" id="NATURE">
+			<center><p>NATURE</p></center>
+		</div>
+		
+		<div class="leaf" id="role">
+			<center><p>ROLE</p></center>
+		</div>
+		
+		<div class="leaf" id="description2">
+			<center><p>DESCRIPTION</p></center>
+		</div>
+		
+		<div class="leaf" id="name3">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="name4">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="name5">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="format">
+			<center><p>FORMAT</p></center>
+		</div>
+		
+		<div class="leaf" id="element">
+			<center><p>ELEMENT</p></center>
+		</div>
+		
+		<div class="leaf" id="name6">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="type2">
+			<center><p>TYPE</p></center>
+		</div>
+		
+		<div class="leaf" id="format2">
+			<center><p>FORMAT</p></center>
+		</div>
+		
+		<div class="leaf" id="track">
+			<center><p>TRACK</p></center>
+		</div>
+		
+		<div class="leaf" id="WORK_PRODUCT">
+			<center><p>WORK_PRODUCT</p></center>
+		</div>
+		
+		<div class="leaf" id="name7">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="dificulty">
+			<center><p>DIFICULTY</p></center>
+		</div>
+		
+		<div class="leaf" id="name8">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="age">
+			<center><p>AGE</p></center>
+		</div>
+		
+		<div class="leaf" id="gender">
+			<center><p>GENDER</p></center>
+		</div>
+		
+		<div class="leaf" id="plater_type">
+			<center><p>PLAYER_TYPE</p></center>
+		</div>
+		
+		<div class="leaf" id="preknowledge">
+			<center><p>PRE-KNOWLEDGE</p></center>
+		</div>
+		
+		<div class="leaf" id="education">
+			<center><p>EDUCATION</p></center>
+		</div>
+		
+		<div class="leaf" id="identifier">
+			<center><p>IDENTIFIER</p></center>
+		</div>
+		
+		<div class="leaf" id="problem">
+			<center><p>PROBLEM</p></center>
+		</div>
+		
+		<div class="leaf" id="quantity">
+			<center><p>QUANTITY</p></center>
+		</div>
+		
+		<div class="leaf" id="identification2">
+			<center><p>IDENTIFICATION</p></center>
+		</div>
+		
+		<div class="leaf" id="name9">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="release_date">
+			<center><p>RELEASE_DATE</p></center>
+		</div>
+		
+		<div class="leaf" id="simulation">
+			<center><p>SIMULATION</p></center>
+		</div>
+		
+		<div class="leaf" id="version">
+			<center><p>VERSION</p></center>
+		</div>
+		
+		<div class="leaf" id="rule">
+			<center><p>RULE</p></center>
+		</div>
+		
+		<div class="leaf" id="execution">
+			<center><p>EXECUTION</p></center>
+		</div>
+		
+		<div class="leaf" id="result">
+			<center><p>RESULT</p></center>
+		</div>
+		
+		<div class="leaf" id="question">
+			<center><p>QUESTION</p></center>
+		</div>
+		
+		<div class="leaf" id="answer">
+			<center><p>ANSWER</p></center>
+		</div>
+		
+		<div class="leaf" id="quantity2">
+			<center><p>QUANTITY</p></center>
+		</div>
+		
+		<div class="leaf" id="input">
+			<center><p>INPUT</p></center>
+		</div>
+		
+		<div class="leaf" id="output">
+			<center><p>OUTPUT</p></center>
+		</div>
+		
+		<div class="leaf" id="languaje">
+			<center><p>LANGUAJE</p></center>
+		</div>
+		
+		<div class="leaf" id="name10">
+			<center><p>NAME</p></center>
+		</div>
+		
+		<div class="leaf" id="domain_approach">
+			<center><p>DOMAIN_APPROACH</p></center>
+		</div>
+		
+		<div class="leaf" id="interaction">
+			<center><p>INTERACTION</p></center>
+		</div>
+		--->
+		<!---RELACIONES ESTRUCTURALES ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7--->
+		<div class="has" id="1">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="2">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="3">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="4">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="5">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="6">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="7">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="8">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="9">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="10">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="11">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="12">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="13">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="14">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="15">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="16">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="17">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="18">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="19">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="20">
+			<center><p>HAS</p></center>
+		</div>
+
+		<div class="has" id="21">
+			<center><p>IS</p></center>
+		</div>
+
+		<div class="has" id="22">
+			<center><p>IS</p></center>
+		</div>
+
+		<!---relaciones dinamicas  //////////////////////////////////////////////////////////////////////////////////////--->
+
+		<div class="contenedor" id="contenedor1">
+			<center><p>PLANIFIES</p></center>
+			<div class="dynamic" id="builds1">
+				<center><p>BUILDS</p></center>
+			</div>
+	
+			<div class="dynamic" id="builds2">
+				<center><p>BUILDS</p></center>
+			</div>
+		</div>
+
+		<div class="contenedor" id="contenedor2">
+			<center><p>PLANIFIES</p></center>
+			<div class="dynamic" id="establishes">
+				<center><p>ESTABLISHES</p></center>
+			</div>
+
+			<div class="dynamic" id="defines">
+				<center><p>DEFINES</p></center>
+			</div>
+
+			<div class="dynamic" id="builds3">
+				<center><p>BUILDS</p></center>
+			</div>
+
+			<div class="dynamic" id="checks">
+				<center><p>CHECKS</p></center>
+			</div>
+
+			<div class="dynamic" id="analyzes">
+				<center><p>ANALYZES</p></center>
+			</div>
+
+			<div class="dynamic" id="concludes">
+				<center><p>CONCLUDES</p></center>
+			</div>
+		</div>
+
+		<div class="dynamic" id="selects">
+			<center><p>SELECTS</p></center>
+		</div>
+
+		<div class="contenedor" id="contenedor3">
+			<center><p>DEFINES</p></center>
+			<div class="dynamic" id="selects">
+				<center><p>SELECTS</p></center>
+			</div>
+
+			<div class="dynamic" id="selects">
+				<center><p>SELECTS</p></center>
+			</div>
+
+		</div>
+
+		<div class="contenedor" id="contenedor4">
+			<center><p>ANALYSES</p></center>
+			<div class="dynamic" id="interacts">
+				<center><p>INTERACTS</p></center>
+			</div>
+
+			<div class="dynamic" id="responds">
+				<center><p>RESPINDS</p></center>
+			</div>
+		</div>
+
+		<!---objetivos----------------------------------------------------------------------------------------------------------------------------------------------------->
+		<div class="objetivos" id="making">
+			<center><h3 class="blanco"><p>MAKING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="making2">
+			<center><h3 class="blanco"><p>MAKING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="attaining">
+			<center><h3 class="blanco"><p>ATTAINING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="bettering">
+			<center><h3 class="blanco"><p>BETTERING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="offering">
+			<center><h3 class="blanco"><p>OFFERING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="procuring">
+			<center><h3 class="blanco"><p>PROCURING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="giving">
+			<center><h3 class="blanco"><p>GIVING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="improving">
+			<center><h3 class="blanco"><p>IMPROVING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="obtaining">
+			<center><h3 class="blanco"><p>OBTAINING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="promoting">
+			<center><h3 class="blanco"><p>PROMOTING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="achieving1">
+			<center><h3 class="blanco"><p>ACHIEVING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="achieving2">
+			<center><h3 class="blanco"><p>ACHIEVING</p></h3></center>
+		</div>	
+
+		<div class="objetivos" id="ensuring">
+			<center><h3 class="blanco"><p>ENSURING</p></h3></center>
+		</div>	
+
+		<!---condicionales-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<div class="rombo" id="rombo1">
+			<div id="linea1"></div>
+			<div id="linea2"></div>
+			<div class="objectclassrombo" id=satisfactionrombo>
+				<center><p>SATISFACION</p></center>
+				<div class="leafrombo" id="quantitysatisfaction"><center><p>QUANTITY</p></center></div>
+			</div>
+			<div class="igual">
+				<center><p>=</p></center>
+			</div>
+			<div class="nota">
+				<center><p>"COMPLETE"</p></center>
+			</div>
+
+		</div>
+		<!---eventos------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+		<div class="circuloevento" id="eventoarrives">
+			<div class="linea" id="lineaevento"></div>
+			<div class="objectclass" id="prototypeevent">
+				<center><p>PROTOTYPE</p></center>
+				<div class="leaf" id="release_dateevent">
+					<center><p id="sizas">RELEASE_DATE</p></center>
+				</div>
+			</div>
+			<div class="triangulo" id="triangevento"></div>
+			<div class="dynamicblanco">
+				<div class="hasmini">
+					<center><p id="arrivesmini">ARRIVES</p></center>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
